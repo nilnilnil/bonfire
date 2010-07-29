@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	1A84D15D11ED4446000BB960 /* MainViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {793, 798}}";
+			sepNavSelRange = "{479, 0}";
+			sepNavVisRange = "{173, 1149}";
+			sepNavWindowFrame = "{{413, 18}, {852, 760}}";
+		};
+	};
+	1A87903311DA53E20018403D /* bonfire */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = bonfire;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	1A87904011DA53E30018403D /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	1A87904111DA53E30018403D /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1AA4D98011EF8DEE00F419EC /* Default-Portrait.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 31}, {1010, 742}}";
+		};
+	};
+	1ACDC3E611DB77D800369DE8 /* FlashlightAppDelegate.m:111 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1ACDC3E711DB77D800369DE8 /* FlashlightAppDelegate.m */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 111;
+		modificationTime = 299595739.185755;
+		originalNumberOfMultipleMatches = 0;
+		state = 2;
+	};
+	1ACDC3E711DB77D800369DE8 /* FlashlightAppDelegate.m */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
+		name = FlashlightAppDelegate.m;
+		path = /Users/james/Downloads/reitsni/FlashlightAppDelegate.m;
+		sourceTree = "<absolute>";
+	};
+	1D3623240D0F684500981E51 /* BonfireAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {643, 624}}";
+			sepNavSelRange = "{416, 0}";
+			sepNavVisRange = "{0, 866}";
+			sepNavWindowFrame = "{{3, 26}, {702, 752}}";
+		};
+	};
+	1D3623250D0F684500981E51 /* BonfireAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {951, 4326}}";
+			sepNavSelRange = "{698, 0}";
+			sepNavVisRange = "{7717, 775}";
+			sepNavWindowFrame = "{{221, 23}, {1010, 742}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* bonfire */ = {
+		activeExec = 0;
+		executables = (
+			1A87903311DA53E20018403D /* bonfire */,
+		);
+	};
+	289233A20DB2D0840083E9F9 /* FlipsideView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {643, 624}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 69}";
+			sepNavWindowFrame = "{{15, 21}, {702, 752}}";
+		};
+	};
+	289233A30DB2D0840083E9F9 /* FlipsideView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {643, 624}}";
+			sepNavSelRange = "{163, 0}";
+			sepNavVisRange = "{0, 280}";
+			sepNavWindowFrame = "{{15, 21}, {702, 752}}";
+		};
+	};
+	289233A40DB2D0840083E9F9 /* MainView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {643, 624}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 65}";
+			sepNavWindowFrame = "{{15, 21}, {702, 752}}";
+		};
+	};
+	289233A50DB2D0840083E9F9 /* MainView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {643, 624}}";
+			sepNavSelRange = "{169, 0}";
+			sepNavVisRange = "{0, 272}";
+			sepNavWindowFrame = "{{15, 21}, {702, 752}}";
+		};
+	};
+	289233A80DB2D0DB0083E9F9 /* MainViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {643, 601}}";
+			sepNavSelRange = "{139, 0}";
+			sepNavVisRange = "{0, 184}";
+			sepNavWindowFrame = "{{529, 26}, {702, 752}}";
+		};
+	};
+	289233AA0DB2D0DB0083E9F9 /* RootViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {643, 601}}";
+			sepNavSelRange = "{168, 34}";
+			sepNavVisRange = "{0, 692}";
+			sepNavWindowFrame = "{{437, 26}, {702, 752}}";
+		};
+	};
+	289233AB0DB2D0DB0083E9F9 /* RootViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1194, 1526}}";
+			sepNavSelRange = "{2289, 0}";
+			sepNavVisRange = "{0, 1512}";
+			sepNavWindowFrame = "{{26, 4}, {1253, 736}}";
+		};
+	};
+	289233AC0DB2D0DB0083E9F9 /* FlipsideViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {643, 624}}";
+			sepNavSelRange = "{137, 0}";
+			sepNavVisRange = "{0, 143}";
+			sepNavWindowFrame = "{{15, 21}, {702, 752}}";
+		};
+	};
+	289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {839, 601}}";
+			sepNavSelRange = "{866, 0}";
+			sepNavVisRange = "{0, 872}";
+			sepNavWindowFrame = "{{382, 49}, {898, 729}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeArchitecturePreference = armv6;
+		activeBuildConfigurationName = jt;
+		activeExecutable = 1A87903311DA53E20018403D /* bonfire */;
+		activeSDKPreference = iphoneos4.0;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* bonfire */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* bonfire */,
+		);
+		breakpoints = (
+			1ACDC3E611DB77D800369DE8 /* FlashlightAppDelegate.m:111 */,
+		);
+		codeSenseManager = 1A87904111DA53E30018403D /* Code sense */;
+		executables = (
+			1A87903311DA53E20018403D /* bonfire */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = 1;
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_ObjectSize_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					273,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_ObjectSize_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					233,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 300923404;
+			PBXWorkspaceStateSaveDate = 300923404;
+		};
+		sourceControlManager = 1A87904011DA53E30018403D /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {643, 624}}";
+			sepNavSelRange = "{214, 0}";
+			sepNavVisRange = "{0, 214}";
+			sepNavWindowFrame = "{{15, 21}, {702, 752}}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* Bonfire_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1157, 608}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 175}";
+			sepNavWindowFrame = "{{15, 37}, {1216, 736}}";
+		};
+	};
+	8D1107310486CEB800E47090 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{455, 26}, {702, 752}}";
+		};
+	};
+}
