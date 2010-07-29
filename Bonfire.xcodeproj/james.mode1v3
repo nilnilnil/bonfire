@@ -376,9 +376,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>1A8BE47C11EFBCE300D0E3E4</string>
+				<string>1A0665DE1201F91100A1780C</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>1A8BE47D11EFBCE300D0E3E4</string>
+				<string>1A0665DF1201F91100A1780C</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -522,12 +522,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1A8BE48611EFBCE300D0E3E4</string>
-		<string>1A8BE48711EFBCE300D0E3E4</string>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>1A87903E11DA53E30018403D</string>
-		<string>/Users/james/Desktop/bonfire/Bonfire.xcodeproj</string>
+		<string>/Users/james/_/iphone/bonfire/Bonfire.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>419 59 716 719 0 0 1280 778 </string>
@@ -607,7 +603,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1A87903E11DA53E30018403D</string>
-				<string>1A8BE47E11EFBCE300D0E3E4</string>
+				<string>1A0665E01201F91100A1780C</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>

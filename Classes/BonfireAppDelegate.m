@@ -6,18 +6,14 @@
 
 @synthesize window, rootViewController;
 
-//XXX: (jft) not needed
 //extern void GSEventSetBacklightLevel(float); 
 
 - (IBAction) toggleLight
 {
-	// just deal with light
 	ledOn ? [self setLed:NO] : [self setLed:YES];
-	//ledOn = !ledOn;
 	[(MainViewController *)rootViewController.mainViewController toggleImage];
 }
 
-//**************************************************************************************************
 - (void)applicationDidFinishLaunching:(UIApplication *)application 
 {
 	// set status bar style
@@ -52,7 +48,6 @@
 	}
 }
 
-//**************************************************************************************************
 - (void) initWithCaptureDevice
 {
 	screenInit = NO;
@@ -123,14 +118,12 @@
 	}
 }
 
-//**************************************************************************************************
 - (void) setLed:(BOOL) state
 {
 	NSError* error = nil;
 	
 	if(captDevice != nil && [captDevice lockForConfiguration:&error])
 	{
-		//captDevice.torchMode = (state == YES) ? AVCaptureTorchModeOn : AVCaptureTorchModeOff;
 		if (state) {
 			captDevice.torchMode = AVCaptureTorchModeOn;
 			ledOn = YES;
@@ -143,41 +136,6 @@
 	}
 }
 
-//**************************************************************************************************
-/*- (void) initWithScreen
-{
-	screenInit = YES;
-	NSDictionary *prefs = [NSDictionary dictionaryWithContentsOfFile:@"/var/mobile/Library/Preferences/com.apple.springboard.plist"];
-	float userBacklightLevel1 = [[prefs objectForKey:@"SBBacklightLevel"] floatValue];
-	float userBacklightLevel2 = [[prefs objectForKey:@"SBBacklightLevel2"] floatValue];
-	float defaultBacklightLevel = 0.5;
-	[[UIApplication sharedApplication] setIdleTimerDisabled:YES];
-	
-	if	(userBacklightLevel2 > 0) BacklightValue = userBacklightLevel2;
-	else if (userBacklightLevel1 > 0) BacklightValue = userBacklightLevel1;
-	else	BacklightValue = defaultBacklightLevel;
-	
-	//GSEventSetBacklightLevel(0.9999f);
-	Strobing = NO;
-	
-	window = [[UIWindow alloc] initWithFrame: [[UIScreen mainScreen] bounds]]; 
-	window.backgroundColor = [UIColor whiteColor];
-	
-	UIButton* strobeButton = [[UIButton alloc] initWithFrame:CGRectMake((window.frame.size.width - 100) / 2,
-																		window.frame.size.height - 40 - 10,
-																		100,
-																		40)];
-	[strobeButton addTarget:self action:@selector(StrobeTapped) forControlEvents:UIControlEventTouchUpInside];
-	strobeButton.backgroundColor = [UIColor grayColor];
-	[strobeButton setTitle:@"Strobe" forState:UIControlStateNormal];
-	
-	[window addSubview:strobeButton];
-	
-    // Override point for customization after application launch
-    [window makeKeyAndVisible];
-}*/
-
-//**************************************************************************************************
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
 	if(screenInit == YES)
@@ -194,7 +152,6 @@
 	}
 }
 
-//**************************************************************************************************
 - (void)applicationWillResignActive:(UIApplication *)application
 {
 	if(screenInit == YES)
@@ -211,7 +168,6 @@
 	}
 }
 
-//**************************************************************************************************
 - (void)applicationWillTerminate:(UIApplication *)application
 {
 	if(screenInit == YES)
@@ -225,7 +181,7 @@
 	}
 }
 
-/*//**************************************************************************************************
+/*
 - (void) StrobeTappedLed
 {
 	if(Strobing == YES)
@@ -239,7 +195,6 @@
 	}
 }
 
-//**************************************************************************************************
 - (void) StrobeTapped
 {
 	if(Strobing == YES)
@@ -253,7 +208,6 @@
 	}
 }
 
-//**************************************************************************************************
 - (void) StrobeTimerLed: (NSTimer*) Timer
 {
 	static BOOL currentState = YES;
@@ -270,7 +224,6 @@
 	}
 }
 
-//**************************************************************************************************
 - (void) StrobeTimer: (NSTimer*) Timer
 {
 	static float TimerBacklightValue = 0.9999f;
@@ -293,6 +246,39 @@
 	}
 	//GSEventSetBacklightLevel(TimerBacklightValue);
 }*/
+
+/*- (void) initWithScreen
+ {
+ screenInit = YES;
+ NSDictionary *prefs = [NSDictionary dictionaryWithContentsOfFile:@"/var/mobile/Library/Preferences/com.apple.springboard.plist"];
+ float userBacklightLevel1 = [[prefs objectForKey:@"SBBacklightLevel"] floatValue];
+ float userBacklightLevel2 = [[prefs objectForKey:@"SBBacklightLevel2"] floatValue];
+ float defaultBacklightLevel = 0.5;
+ [[UIApplication sharedApplication] setIdleTimerDisabled:YES];
+ 
+ if	(userBacklightLevel2 > 0) BacklightValue = userBacklightLevel2;
+ else if (userBacklightLevel1 > 0) BacklightValue = userBacklightLevel1;
+ else	BacklightValue = defaultBacklightLevel;
+ 
+ //GSEventSetBacklightLevel(0.9999f);
+ Strobing = NO;
+ 
+ window = [[UIWindow alloc] initWithFrame: [[UIScreen mainScreen] bounds]]; 
+ window.backgroundColor = [UIColor whiteColor];
+ 
+ UIButton* strobeButton = [[UIButton alloc] initWithFrame:CGRectMake((window.frame.size.width - 100) / 2,
+ window.frame.size.height - 40 - 10,
+ 100,
+ 40)];
+ [strobeButton addTarget:self action:@selector(StrobeTapped) forControlEvents:UIControlEventTouchUpInside];
+ strobeButton.backgroundColor = [UIColor grayColor];
+ [strobeButton setTitle:@"Strobe" forState:UIControlStateNormal];
+ 
+ [window addSubview:strobeButton];
+ 
+ // Override point for customization after application launch
+ [window makeKeyAndVisible];
+ }*/
 
 - (void)dealloc {
 	[rootViewController release];
