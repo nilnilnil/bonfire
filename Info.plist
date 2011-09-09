@@ -37,5 +37,7 @@
 		<key>camera-flash</key>
 		<true/>
 	</dict>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleBlackOpaque</string>
 </dict>
 </plist>
