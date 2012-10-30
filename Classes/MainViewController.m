@@ -13,18 +13,33 @@
 - (void)viewDidLoad {
 	
 	campFireView = [[UIImageView alloc] initWithFrame:self.view.frame];
+    
+    CGRect screenRect = [[UIScreen mainScreen] bounds];
+    CGFloat screenHeight = screenRect.size.height;
+    
+    NSLog (@"screenHeight: %d", (int)screenHeight);
+
+    if ((int)screenHeight == 568) {
+        imaHugeIphone = YES;
+    } else {
+        imaHugeIphone = NO;
+    }
+    
 	[self setImage:YES];
 	[self.view addSubview:campFireView];
-	[campFireView release];
+	
+    [campFireView release];
 }
 
 - (void)setImage:(BOOL) state
 {
 	if (state) {
-		campFireView.image = [UIImage imageNamed:@"bonfire_on.png"];
+        NSString *imgOn = imaHugeIphone ? @"bonfire_on_4inch.png" : @"bonfire_on.png";
+		campFireView.image = [UIImage imageNamed:imgOn];
 		imageOn = YES;
 	} else {
-		campFireView.image = [UIImage imageNamed:@"bonfire_off.png"];
+        NSString *imgOff = imaHugeIphone ? @"bonfire_off_4inch.png" : @"bonfire_off.png";
+		campFireView.image = [UIImage imageNamed:imgOff];
 		imageOn = NO;
 	}
 }

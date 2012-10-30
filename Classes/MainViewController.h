@@ -2,7 +2,8 @@
 
 @interface MainViewController : UIViewController {
 	BOOL imageOn;
-	UIImageView* campFireView;	
+    BOOL imaHugeIphone;
+	UIImageView* campFireView;
 }
 - (void) setImage:(BOOL) state;
 - (IBAction) toggleImage;

@@ -29,6 +29,11 @@
 		289233B00DB2D0DB0083E9F9 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */; };
 		E48FD9FF163F55790097DC55 /* Default-Portrait-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E48FD9FE163F55790097DC55 /* Default-Portrait-568h@2x.png */; };
 		E48FDA03163F58C40097DC55 /* Default-Portrait@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E48FDA02163F58C40097DC55 /* Default-Portrait@2x.png */; };
+		E48FDA09163F5CA10097DC55 /* bonfire_appstore.png in Resources */ = {isa = PBXBuildFile; fileRef = E48FDA04163F5CA10097DC55 /* bonfire_appstore.png */; };
+		E48FDA0A163F5CA10097DC55 /* bonfire_huge.png in Resources */ = {isa = PBXBuildFile; fileRef = E48FDA05163F5CA10097DC55 /* bonfire_huge.png */; };
+		E48FDA0B163F5CA10097DC55 /* bonfire_off_4inch.png in Resources */ = {isa = PBXBuildFile; fileRef = E48FDA06163F5CA10097DC55 /* bonfire_off_4inch.png */; };
+		E48FDA0C163F5CA10097DC55 /* bonfire_on_4inch.png in Resources */ = {isa = PBXBuildFile; fileRef = E48FDA07163F5CA10097DC55 /* bonfire_on_4inch.png */; };
+		E48FDA0D163F5CA10097DC55 /* campfire.png in Resources */ = {isa = PBXBuildFile; fileRef = E48FDA08163F5CA10097DC55 /* campfire.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +68,11 @@
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E48FD9FE163F55790097DC55 /* Default-Portrait-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait-568h@2x.png"; sourceTree = "<group>"; };
 		E48FDA02163F58C40097DC55 /* Default-Portrait@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x.png"; sourceTree = "<group>"; };
+		E48FDA04163F5CA10097DC55 /* bonfire_appstore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bonfire_appstore.png; path = Images/bonfire_appstore.png; sourceTree = "<group>"; };
+		E48FDA05163F5CA10097DC55 /* bonfire_huge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bonfire_huge.png; path = Images/bonfire_huge.png; sourceTree = "<group>"; };
+		E48FDA06163F5CA10097DC55 /* bonfire_off_4inch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bonfire_off_4inch.png; path = Images/bonfire_off_4inch.png; sourceTree = "<group>"; };
+		E48FDA07163F5CA10097DC55 /* bonfire_on_4inch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bonfire_on_4inch.png; path = Images/bonfire_on_4inch.png; sourceTree = "<group>"; };
+		E48FDA08163F5CA10097DC55 /* campfire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = campfire.png; path = Images/campfire.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +104,11 @@
 		188CA9160E95A09D008E41AD /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				E48FDA04163F5CA10097DC55 /* bonfire_appstore.png */,
+				E48FDA05163F5CA10097DC55 /* bonfire_huge.png */,
+				E48FDA06163F5CA10097DC55 /* bonfire_off_4inch.png */,
+				E48FDA07163F5CA10097DC55 /* bonfire_on_4inch.png */,
+				E48FDA08163F5CA10097DC55 /* campfire.png */,
 				1AA4D98011EF8DEE00F419EC /* Default-Portrait.png */,
 				1A45554911EF98A0003CF8D9 /* Icon-lres.png */,
 				1A60FEAB11EF78DD00DFDEDF /* bonfire_strobe.png */,
@@ -249,6 +264,11 @@
 				1A45554A11EF98A0003CF8D9 /* Icon-lres.png in Resources */,
 				E48FD9FF163F55790097DC55 /* Default-Portrait-568h@2x.png in Resources */,
 				E48FDA03163F58C40097DC55 /* Default-Portrait@2x.png in Resources */,
+				E48FDA09163F5CA10097DC55 /* bonfire_appstore.png in Resources */,
+				E48FDA0A163F5CA10097DC55 /* bonfire_huge.png in Resources */,
+				E48FDA0B163F5CA10097DC55 /* bonfire_off_4inch.png in Resources */,
+				E48FDA0C163F5CA10097DC55 /* bonfire_on_4inch.png in Resources */,
+				E48FDA0D163F5CA10097DC55 /* campfire.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
